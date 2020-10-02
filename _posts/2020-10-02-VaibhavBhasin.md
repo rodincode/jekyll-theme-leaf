@@ -3,12 +3,11 @@ layout: post
 author: Vaibhav Bhasin
 title: Python Core
 ---
-##### 2/10/2020
 
 ## My Progress  ![](https://progress-bar.dev/20)
 
-# Class 1
-
+# Class 1  
+#### 02/10/2020
 
 ```python
 print(value, sep=" ", end="\n")
