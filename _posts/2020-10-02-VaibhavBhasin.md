@@ -4,8 +4,11 @@ author: Vaibhav Bhasin
 title: Python Core
 ---
 ##### 2/10/2020
-# Class 1
+
 ## My Progress  ![](https://progress-bar.dev/20)
+
+# Class 1
+
 
 ```python
 print(value, sep=" ", end="\n")
