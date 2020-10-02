@@ -17,4 +17,4 @@ type(34.9)
 bool(1)
 float(89)
 ```
-<img src="https://raw.githubusercontent.com/rodincode/coderprojects/master/assets/android-chrome-192x192-removebg-preview.png" alt="my rank" height="20" width="20"/>
+#### Batches Owned: <img src="https://raw.githubusercontent.com/rodincode/coderprojects/master/assets/android-chrome-192x192-removebg-preview.png" alt="my rank" height="20" width="20"/>
