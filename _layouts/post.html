@@ -36,20 +36,5 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 2082; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: '{{ page.url | absolute_url }}',
-        id: '{{page.id}}'
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-
-{%- if site.hyvor_talk_website_id -%}
-  <div class="comments">
-    {%- include hyvor-talk-comments.html -%}
-  </div>
-{%- endif -%}
 
 
