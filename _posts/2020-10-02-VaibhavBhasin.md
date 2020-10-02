@@ -4,10 +4,8 @@ author: Vaibhav Bhasin
 title: Python Core
 ---
 
-## My Progress  ![](https://progress-bar.dev/20)
-
 # Class 1  
-#### 02/10/2020
+##### 02/10/2020
 
 ```python
 print(value, sep=" ", end="\n")
@@ -17,4 +15,7 @@ type(34.9)
 bool(1)
 float(89)
 ```
+
+### My Progress  ![](https://progress-bar.dev/20)
 #### Batches Owned: <img src="https://raw.githubusercontent.com/rodincode/coderprojects/master/assets/android-chrome-192x192-removebg-preview.png" alt="my rank" height="20" width="20"/>
+
