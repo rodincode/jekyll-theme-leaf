@@ -5,7 +5,7 @@ title: Python Core
 ---
 
 # My Projects
-##### 02/10/2020
+
 ## Pong-Game
 ```python
 import turtle
@@ -110,7 +110,7 @@ while True:
 turtle.done()
 ```
 
-##Weight on Different Planets - Website
+## Weight on Different Planets - Website
 ```html
 <HTML>
 <HEAD>
