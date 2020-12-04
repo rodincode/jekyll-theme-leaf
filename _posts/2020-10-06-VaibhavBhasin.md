@@ -4,7 +4,7 @@ author: Vaibhav Bhasin
 title: Vaibhav Bhasin
 ---
 
-> #### My Projects
+### `My Projects`
 
 > * [Pong Game using Python](https://rodincode.github.io/coderprojects/ponggame)
 > * [Whats your weight on different planets - A Website](https://rodincode.github.io/coderprojects/website)
