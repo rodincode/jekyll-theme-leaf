@@ -4,16 +4,224 @@ author: Vaibhav Bhasin
 title: Python Core
 ---
 
-# Class 1  
+# My Projects
 ##### 02/10/2020
-
+## Pong-Game
 ```python
-print(value, sep=" ", end="\n")
-#datatypes: int,float,str,bool
-type(34.9)
-#Type Casting
-bool(1)
-float(89)
+import turtle
+import playsound
+
+score_a = 0
+score_b = 0
+canvas = turtle.Screen()
+canvas.title("The Greatest Pong Game Ever")
+canvas.bgcolor("#0B5345")
+canvas.screensize(600,400)
+
+pa = turtle.Turtle()
+pa.color('#48C9B0')
+pa.penup()
+pa.goto(-250,0)
+pa.pendown()
+pa.shape('square')
+pa.shapesize(stretch_wid=5, stretch_len=1)
+
+pb = turtle.Turtle()
+pb.color('#48C9B0')
+pb.penup()
+pb.goto(250,0)
+pb.pendown()
+pb.shape('square')
+pb.shapesize(stretch_wid=5, stretch_len=1)
+
+ball=turtle.Turtle()
+ball.color('#abc123')
+ball.penup()
+ball.goto(0,0)
+ball.pendown()
+ball.shape('circle')
+ball.penup()
+
+text = turtle.Turtle()
+text.penup()
+text.goto(0,150)
+text.pendown()
+text.color("blue")
+text.write("READY",align="center",font=("Arial",24,"normal"))
+text.hideturtle()
+canvas.delay(1000)
+text.clear()
+text.write("GO!",align="center",font=("Arial",24,"normal"))
+canvas.delay(1000)
+text.clear()
+text.write("Paddle A: {}  Paddle B: {}".format(score_a,score_b),align="center",font=("Arial",24,"normal"))
+canvas.delay(1)
+speedx=4
+speedy=4
+
+def pa_mov_up():
+    pa.sety(pa.ycor()+20)
+def pa_mov_down():
+    pa.sety(pa.ycor()-20)
+
+def pb_mov_up():
+    pb.sety(pb.ycor()+20)
+def pb_mov_down():
+    pb.sety(pb.ycor()-20)
+
+canvas.listen() ## screen will start listening to the keyboard
+canvas.onkeypress(pa_mov_up,"w")
+canvas.onkeypress(pa_mov_down,"e")
+canvas.onkeypress(pb_mov_up,"i")
+canvas.onkeypress(pb_mov_down,"o")
+
+while True:
+    ball.setx(ball.xcor()+speedx)  #take the current x cor of ball and add 2 pixels to it
+    ball.sety(ball.ycor()+speedy)
+
+    if ball.xcor() > 300:
+        ball.goto(0,0)
+        speedx *= -1
+        score_a+=1
+        text.clear()
+        text.write("Paddle A: {}  Paddle B: {}".format(score_a,score_b),align="center",font=("Arial",24,"normal"))
+
+    elif ball.xcor()< -300:
+        ball.goto(0,0)
+        speedx *= -1
+        score_b+=1
+        text.clear()
+        text.write("Paddle A: {}  Paddle B: {}".format(score_a,score_b),align="center",font=("Arial",24,"normal"))
+    
+    if ball.ycor() > 200:
+        speedy *= -1
+    
+    elif ball.ycor() <-200:
+        speedy *= -1
+    
+    if ball.xcor()>240 and (pb.ycor()+50> ball.ycor()> pb.ycor()-50):
+        ball.setx(240)
+        speedx *= -1
+        playsound.playsound("bounce.wav")
+    elif ball.xcor()<-240 and (pa.ycor()+50> ball.ycor() > pa.ycor()-50):
+        ball.setx(-240)
+        speedx *= -1
+        playsound.playsound("bounce.wav")
+turtle.done()
+```
+
+##Weight on Different Planets - Website
+```html
+<HTML>
+<HEAD>
+<TITLE>Weight On Different Planets</TITLE>
+</HEAD>
+<BODY BGCOLOR=BLACK>
+<img src="C:\Users\Vaibhav\Downloads\InShot_20200929_111557837">
+<p>
+<FONT FACE=ALGERIAN SIZE=10.5 COLOR=BLUE>
+<H2 align="center">
+YOUR WEIGHT ON OTHER PLANETS
+</H2>
+</FONT>
+</p>
+<FONT FACE=CENTURY SIZE=5.5 COLOR=WHITE>
+<p>TO DO & NOTICE:</p>
+<ol><li>Fill in your weight below in the space indicated.You can enter your weight in any unit you wish.
+<li>Click on the "Calculate" button.
+<li>Notice that the weights on other worlds will automatically fill in.
+<li>Notice that your weight is different on the different planets.
+<p>
+</FONT>
+<FONT FACE=ALGERIAN SIZE=9 COLOR=BROWN>
+<H1 align="center">
+THE PLANETS
+</H1>
+</FONT>
+</p>
+<FONT FACE=CENTURY SIZE=5.5 COLOR=WHITE>
+The Formula is 
+<p>Weight on Earth*G-force of a planet/9.8</p>
+<p>Example:</p>
+<p><br>54*3.711/9.8=20.448367346938774 kg</p>
+</FONT>
+<img src="C:\Users\Vaibhav\Desktop\New folder\Mercury.jpg" alt="Mercury" height="200" width="275">
+<FONT FACE=CENTURY SIZE=3.5 COLOR=WHITE>
+MERCURY G-FORCE=0.38
+<img src="C:\Users\Vaibhav\Desktop\New folder\Venus.jpg" alt="Venus" height="200" width="250">
+VENUS G-FORCE=0.9
+<img src="C:\Users\Vaibhav\Desktop\New folder\Mars.jpg" alt="Mars" height="200" width="275">
+MARS G-FORCE=0.38
+<img src="C:\Users\Vaibhav\Desktop\New folder\Jupiter.jpg" alt="Jupiter" height="200" width="275">
+JUPITER G-FORCE=2.53
+<img src="C:\Users\Vaibhav\Desktop\New folder\Satrun.jpg" alt="Satrun" height="200" width="400">
+SATRUN G-FORCE=1.07
+<img src="C:\Users\Vaibhav\Desktop\New folder\Uranus.jpg" alt="Uranus" height="200" width="200">
+URANUS G-FORCE=0.89
+<img src="C:\Users\Vaibhav\Desktop\New folder\Neptune.jpg" alt="Neptune" height="200" width="300">
+NEPTUNE G-FORCE=1.14
+</FONT>
+<H3 align="center">
+<FONT FACE=ALGERIAN SIZE=11 COLOR=BROWN>
+<p>DRAWF PLANET "PLUTO"</p>
+<p>
+</H4>
+</FONT>
+<img src="C:\Users\Vaibhav\Desktop\New folder\Pluto.jpg" alt="Pluto">
+<FONT FACE=CENTURY SIZE=3.5 COLOR=WHITE>
+PLUTO G-FORCE=0.059
+</FONT>
+<FONT FACE=ALGERIAN SIZE=5 COLOR=BROWN>
+<H1 align="center">
+THE MOONS OF JUPITER
+</H4>
+</FONT>
+</p>
+<FONT FACE=CENTURY SIZE=3.5 COLOR=WHITE>
+<img src="C:\Users\Vaibhav\Desktop\New folder\IO.jpg" alt="IO" height="200" width="350">
+IO G-FORCE=0.183
+<img src="C:\Users\Vaibhav\Desktop\New folder\JUPITER MOON.jpg" alt="" height="200" width="200">
+EUROPA G-FORCE=10
+<img src="C:\Users\Vaibhav\Desktop\New folder\GANYMEDE.jpg" alt="GANYMEDE" height="200" width="230">
+GANYMEDE G-FORCE=0.146
+<img src="C:\Users\Vaibhav\Desktop\New folder\CALLISTO.png" alt="CALLISTO" height="200" width="300">
+CALLISTO G-FORCE=0.126
+<p>
+</FONT>
+<FONT FACE=ALGERIAN SIZE=9 COLOR=BROWN>
+<H5 align="center">
+A TYPE OF DIFFERENT STARS
+</H5
+</FONT>
+</p>
+<FONT FACE=CENTURY SIZE=5.5 COLOR=WHITE>
+<img src="C:\Users\Vaibhav\Desktop\New folder\SUN.jpg" alt="SUN" height="200" width="350">
+SUN G-FORCE=28.02
+<img src="C:\Users\Vaibhav\Desktop\New folder\WHITE.png" alt="A WHITE DRAWF" height="200" width="275">
+A WHITE DRAWF G-FORCE=68
+<img src="C:\Users\Vaibhav\Desktop\New folder\STAR.jpg" alt="A NEUTRON STAR" height="200" width="275">
+A NEUTRON STAR G-FORCE=200000000000
+</FONT>
+<FONT FACE=CENTURY SIZE=6.5 COLOR=WHITE>
+<p>Mass and Weight</p>
+<p>Before we get into the subject of gravity and how it acts, it's important to understand the difference between weight and mass.
+
+We often use the terms "mass" and "weight" interchangeably in our daily speech, but to an astronomer or a physicist they are completely different things. The mass of a body is a measure of how much matter it contains. An object with mass has a quality called inertia. If you shake an object like a stone in your hand, you would notice that it takes a push to get it moving, and another push to stop it again. If the stone is at rest, it wants to remain at rest. Once you've got it moving, it wants to stay moving. This quality or "sluggishness" of matter is its inertia. Mass is a measure of how much inertia an object displays.
+
+Weight is an entirely different thing. Every object in the universe with mass attracts every other object with mass. The amount of attraction depends on the size of the masses and how far apart they are. For everyday-sized objects, this gravitational pull is vanishingly small, but the pull between a very large object, like the Earth, and another object, like you, can be easily measured. How? All you have to do is stand on a scale! Scales measure the force of attraction between you and the Earth. This force of attraction between you and the Earth (or any other planet) is called your weight.
+
+If you are in a spaceship far between the stars and you put a scale underneath you, the scale would read zero. Your weight is zero. You are weightless. There is an anvil floating next to you. It's also weightless. Are you or the anvil mass-less? Absolutely not. If you grabbed the anvil and tried to shake it, you would have to push it to get it going and pull it to get it to stop. It still has inertia, and hence mass, yet it has no weight. See the difference?
+
+The Relationship Between Gravity and Mass and Distance
+As stated above, your weight is a measure of the pull of gravity between you and the body you are standing on. This force of gravity depends on a few things. First, it depends on your mass and the mass of the planet you are standing on. If you double your mass, gravity pulls on you twice as hard. If the planet you are standing on is twice as massive, gravity also pulls on you twice as hard. On the other hand, the farther you are from the center of the planet, the weaker the pull between the planet and your body. The force gets weaker quite rapidly. If you double your distance from the planet, the force is one-fourth. If you triple your separation, the force drops to one-ninth. Ten times the distance, one-hundredth the force. See the pattern? The force drops off with the square of the distance. If we put this into an equation it would look like this:
+
+<p>Math equation</p>
+<p>Equations are guides to thinking
+The two "M's" on top are your mass and the planet's mass. The "r" below is the distance from the center of the planet. The masses are in the numerator because the force gets bigger if they get bigger. The distance is in the denominator because the force gets smaller when the distance gets bigger. Note that the force never becomes zero no matter how far you travel. Perhaps this was the inspiration for the poem by Francis Thompson:
+</FONT>
+</p>
+</HTML>
+
 ```
 
 ### My Progress  ![](https://progress-bar.dev/20)
