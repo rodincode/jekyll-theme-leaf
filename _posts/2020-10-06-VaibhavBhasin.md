@@ -1,12 +1,11 @@
 ---
 layout: post
 author: Vaibhav Bhasin
-title: Python Core
+title: Vaibhav Bhasin
 ---
 
 # My Projects
 
-## Pong-Game
 * [Pong Game using Python](https://rodincode.github.io/coderprojects/ponggame)
 * [Whats your weight on different planets - A Website](https://rodincode.github.io/coderprojects/website)
 
