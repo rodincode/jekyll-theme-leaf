@@ -1,4 +1,4 @@
-# COVID-19 Data Analysis using Manim
+### COVID-19 Data Analysis using Manim
 
 ```python
 import os
@@ -411,4 +411,4 @@ render({"Demo":CSV},args)
 download("/content/manim/media/videos/1440p60/repl.mp4")
 ```
 
-#### [Run this code in Google Colaboratory] : https://colab.research.google.com/drive/1ZGfJZro52Vsgl4a91LS_XsopBLGbLYiA
+[Run this code in Google Colaboratory]: https://colab.research.google.com/drive/1ZGfJZro52Vsgl4a91LS_XsopBLGbLYiA
