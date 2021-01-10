@@ -1,4 +1,4 @@
-#COVID-19 Data Analysis using Manim
+# COVID-19 Data Analysis using Manim
 
 ```python
 import os
