@@ -1,37 +1,20 @@
-# jekyll-theme-leaf
+# RODINcode
 
 👇👇
 
-[Preview Theme](https://supunkavinda.github.io/jekyll-theme-leaf/) 
+[Home]: (https://rodincode.github.io)
 
-Jekyll Theme Leaf is a very simple yet beautiful theme created by [Supun Kavinda](https://twitter.com/_SupunKavinda). It is designed for those who love dark sites.
-
+Place where RODINcode projects.
 ![Screenshot](https://i.imgur.com/fBiCIuL.png)
 
-## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-theme-leaf"
+```python
+pip install rodincode
+from rodincode.projects import *
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
 
-```yaml
-theme: jekyll-theme-leaf
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-leaf
-
-## Usage
-
+## Details about this template
 ### Layouts
 
 Refers to files within the `_layouts` directory, that define the markup for your theme.
