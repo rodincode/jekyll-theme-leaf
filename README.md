@@ -4,7 +4,7 @@
 
 [Home]: (https://rodincode.github.io)
 
-Place where RODINcode projects.
+Place for RODINcode's projects.
 ![Screenshot](https://i.imgur.com/fBiCIuL.png)
 
 
