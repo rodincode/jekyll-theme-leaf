@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Vaibhav Bhasin
-title: Student- Vaibhav Bhasin
+title: Student - Vaibhav Bhasin
 ---
 
 ### `My Projects`
