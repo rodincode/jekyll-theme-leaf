@@ -9,5 +9,5 @@ title: Student - Bhavik Jain
 > * [add project](https://rodincode.github.io/coderprojects)
 > * [add project](https://rodincode.github.io/coderprojects)
 
-### `My Progress`  ![](https://progress-bar.dev/53.33)
+### `My Progress`  ![](https://progress-bar.dev/53)
 #### `Batches Owned:` 🌟
