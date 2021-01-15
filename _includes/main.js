@@ -2,14 +2,14 @@ var config = {
     apiKey: "YOUR_API_KEY",
     authDomain: "Your_AuthDomain",
     databaseURL: "YOUR_DATABAE_URL",
-    projectId: "YOUR_PROJECT_ID",
+    projectId: "comments-3edb1",
     storageBucket: "YOUR_STORAGE_BUCKET",
     messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    appId: "1:105109435190:web:3bb2a0b68bdad58e3c7997"
 };
 firebase.initializeApp(config);
 // Reference messages collection
-var messagesRef = firebase.database().ref('comments');
+var messagesRef = firebase.database().ref('peoplecomments');
 
 $('#contactForm').submit(function(e) {
     e.preventDefault();
@@ -17,8 +17,7 @@ $('#contactForm').submit(function(e) {
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
         name: $('.fullname').val(),
-        email: $('.email').val(),
-        subject: $('.subject').val(),
+ 
         message: $('.message').val()
     });
  
@@ -32,8 +31,6 @@ $('#contactForm').submit(function(e) {
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
         name: $('.fullname').val(),
-        email: $('.email').val(),
-        subject: $('.subject').val(),
         message: $('.message').val()
     });
  
