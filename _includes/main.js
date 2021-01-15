@@ -8,4 +8,37 @@ var config = {
     appId: "YOUR_APP_ID"
 };
 firebase.initializeApp(config);
+// Reference messages collection
+var messagesRef = firebase.database().ref('comments');
+
+$('#contactForm').submit(function(e) {
+    e.preventDefault();
+ 
+    var newMessageRef = messagesRef.push();
+    newMessageRef.set({
+        name: $('.fullname').val(),
+        email: $('.email').val(),
+        subject: $('.subject').val(),
+        message: $('.message').val()
+    });
+ 
+    $('.success-message').show();
+ 
+    $('#contactForm')[0].reset();
+});
+$('#contactForm').submit(function(e) {
+    e.preventDefault();
+ 
+    var newMessageRef = messagesRef.push();
+    newMessageRef.set({
+        name: $('.fullname').val(),
+        email: $('.email').val(),
+        subject: $('.subject').val(),
+        message: $('.message').val()
+    });
+ 
+    $('.success-message').show();
+ 
+    $('#contactForm')[0].reset();
+});
     
