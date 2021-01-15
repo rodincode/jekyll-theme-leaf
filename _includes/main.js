@@ -1,7 +1,7 @@
 var config = {
     apiKey: "YOUR_API_KEY",
     authDomain: "Your_AuthDomain",
-    databaseURL: "YOUR_DATABAE_URL",
+    databaseURL: "https://comments-3edb1-default-rtdb.firebaseio.com/",
     projectId: "comments-3edb1",
     storageBucket: "YOUR_STORAGE_BUCKET",
     messagingSenderId: "YOUR_SENDER_ID",
