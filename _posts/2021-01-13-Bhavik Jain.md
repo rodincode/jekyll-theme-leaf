@@ -11,8 +11,7 @@ title: Student - Bhavik Jain
 
 <details>
 <summary>View Code</summary>
-   
-      ``` python
+``` python
 
       import turtle 
       import playsound
@@ -133,8 +132,7 @@ title: Student - Bhavik Jain
               playsound.playsound('bounce.wav')
 
 
-      turtle.done()
-      ```
+      turtle.done()```
 
 </details>
 
