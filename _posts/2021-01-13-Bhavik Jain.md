@@ -11,6 +11,7 @@ title: Student - Bhavik Jain
 
 <details>
 <summary>View Code</summary>
+<p>
 ``` python
 
 import turtle 
@@ -134,6 +135,7 @@ while True:
 
 turtle.done()
 ```
+</p>
 </details>
 
 > * MakeMyTrip <br> 
