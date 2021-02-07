@@ -6,8 +6,11 @@ title: Student - Bhavik Jain
 
 ### `My Projects`
 
-> * ![Pong Game](https://github.com/rodincode/projects/blob/master/assets/pong.gif = 250x250)
-> * [add project](https://rodincode.github.io/coderprojects)
+> * Pong Game
+> <img src="https://github.com/rodincode/projects/blob/master/assets/pong.gif" width="500" height="400" />
+
+> * MakeMyTrip
+> <img src="https://github.com/rodincode/projects/blob/master/assets/mmt.gif" width="800" height="350" />
 
 ### `My Progress`  ![](https://progress-bar.dev/53)
-#### `Batches Owned:` 🌟
+#### `Batches Owned:` 🌟🧠⚓
