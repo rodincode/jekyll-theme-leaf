@@ -11,8 +11,7 @@ title: Student - Bhavik Jain
 
 <details>
 <summary>View Code</summary>
-<p>
-``` python
+<code>
 
 import turtle 
 import playsound
@@ -134,8 +133,8 @@ while True:
 
 
 turtle.done()
-```
-</p>
+</code>
+
 </details>
 
 > * MakeMyTrip <br> 
