@@ -11,7 +11,7 @@ title: Student - Bhavik Jain
 
 <details>
 <summary>View Code</summary>
-<code>
+<code class="python">
 
 import turtle 
 import playsound
