@@ -8,30 +8,13 @@ title: Student - Bhavik Jain
 
 > * Pong Game <br>
 > <img src="{{ site.baseurl }}/assets/pong.gif" width="300" height="200" />
-<details>
-    <h1 style="display:inline-block"><summary>Advanced Topics</summary></h1>
-    
-    ```javascript
-       import { Component } from '@angular/core';
-    
-        @Component({
-          selector: 'app-root',
-          template: `<nav>
-                      <a routerLink="/signin" routerLinkActive="active">SignIn</a>
-                      <a routerLink="/signup" routerLinkActive="active">SignUp</a>
-                    </nav>  
-                    <router-outlet></router-outlet>`,
-          styleUrls: ['./app.component.css']
-        })
-        export class AppComponent {
-          
-        }
-    
-    ```
-</details>
+
 <details>
 <summary>View Code</summary>
-``` python
+
+{% highlight %}
+
+
 
       import turtle 
       import playsound
@@ -152,7 +135,11 @@ title: Student - Bhavik Jain
               playsound.playsound('bounce.wav')
 
 
-      turtle.done()```
+      turtle.done()
+      
+    
+
+{% endhighlight %}
 
 </details>
 
