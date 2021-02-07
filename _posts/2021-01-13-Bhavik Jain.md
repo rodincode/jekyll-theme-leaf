@@ -11,8 +11,9 @@ title: Student - Bhavik Jain
 
 <details>
 <summary>View Code</summary>
-<code class="python">
-
+   
+  ```python
+ 
 import turtle 
 import playsound
 canvas=turtle.Screen()
@@ -133,7 +134,7 @@ while True:
 
 
 turtle.done()
-</code>
+  ```
 
 </details>
 
