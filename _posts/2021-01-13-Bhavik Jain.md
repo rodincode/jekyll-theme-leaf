@@ -9,6 +9,8 @@ title: Student - Bhavik Jain
 > * Pong Game <br>
 > <img src="{{ site.baseurl }}/assets/pong.gif" width="300" height="200" />
 
+<details>
+<summary>View Code</summary>
 ``` python
 
 import turtle 
@@ -132,6 +134,7 @@ while True:
 
 turtle.done()
 ```
+</details>
 
 > * MakeMyTrip <br> 
 > <img src="{{ site.baseurl }}/assets/mmt.gif" width="400" height="150" />
