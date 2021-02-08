@@ -10,7 +10,7 @@ title: Student - Bhavik Jain
 > <img src="{{ site.baseurl }}/assets/pong.gif" width="300" height="200" />
 
 <details>
-<summary>View Code</summary>
+<summary><h3> View Code <h3> </summary>
 
 <script src="https://gist.github.com/rodincode/ee35cabac1627a62d72b4303f63bdacb.js"></script>
 
