@@ -14,6 +14,10 @@ title: Interactive Mapping
 
 </head>
 <body>
+  <h3>COVID-19 Interactive Data Visualization</h3>
+  <ul>
+    <li>
+      <h4>MapBox</h4>
 <div id='map' style='width: 675px; height: 500px;'></div>
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoicm9kaW5jb2RlIiwiYSI6ImNrbXVncWhpOTExN2kyb3E1MWc2MnNvNmcifQ.Rf9LemJ5ymKLMcZQyQ6j5g';
@@ -22,7 +26,11 @@ title: Interactive Mapping
     style: 'mapbox://styles/mapbox/streets-v11'
   });
 </script>
-
-
+    </li>
+    <li>
+  <h4>Flourish Studio</h4>
+<div class="flourish-embed flourish-map" data-src="visualisation/6064923"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </li>
+  </ul>
 </body>
 </html>
