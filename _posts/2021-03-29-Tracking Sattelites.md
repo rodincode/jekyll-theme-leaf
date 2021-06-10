@@ -1,6 +1,4 @@
-<h1>
- Tracking Satellites
-</h1>
+
 <p>
   Get predicted visual passes for any satellite relative to a location on Earth. A "visual pass" is a pass that should be optically visible on the entire (or partial) duration of crossing the sky. For that to happen, the satellite must be above the horizon, illumintaed by Sun (not in Earth shadow), and the sky dark enough to allow visual satellite observation.
 </p>
