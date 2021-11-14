@@ -83,26 +83,27 @@ title: Student - Vaibhav Bhasin
 > - [x] index.html and style.css
 
 * Django
-> - [x] MVC Model
-> - [x] settings.py urls.py views.py models.py
-> - [x] Templates and static files
-> - [x] Template extending
-> - [x] Bootstrap
-> - [x] Deploy
-> - [x] OOP intro
-> - [x] Model Classes
-> - [x] Forms Classes
-> - [x] Views Classes
+> - [ ] MVC Model
+> - [ ] settings.py urls.py views.py models.py
+> - [ ] Templates and static files
+> - [ ] Template extending
+> - [ ] Bootstrap
+> - [ ] Deploy
+> - [ ] OOP intro
+> - [ ] Model Classes
+> - [ ] Forms Classes
+> - [ ] Views Classes
 
 * Vanilla JS
 > - [x] Basic intro
 > - [x] Difference between Python and JS
 > - [x] Alerts and console.log
 > - [x] Functions
-> - [x] Loops
-> - [x] Handling form validations
-> - [x] Text animation
+> - [ ] Loops
+> - [ ] Handling form validations
+> - [ ] Text animation
 > - [ ] Background animation
 > - [ ] Using Libraries
-#### `Batches Owned:` <img src="https://raw.githubusercontent.com/rodincode/coderprojects/master/assets/android-chrome-192x192-removebg-preview.png" alt="my rank" height="20" width="20"/>🔥🌟
+
+#### `Batches Owned:` <img src="https://raw.githubusercontent.com/rodincode/coderprojects/master/assets/android-chrome-192x192-removebg-preview.png" alt="my rank" height="20" width="20"/>🔥🌟🔗
 
